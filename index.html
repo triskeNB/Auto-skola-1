@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- CSS load -->
+    <link rel="stylesheet" href="./css/bootstrap-material-design.min.css" />
+    <link href="./css/aos.css" rel="stylesheet" />
+   
+
+    <!-- Tab icon -->
+    <link rel="icon" href="./assets/images/favicon.png" />
+
+    <!-- Material Design Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Auto škola Remus| Novi Becej</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-dark"
+      style="background-color: #00c8ff; z-index: 20;"
+    >
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/images/favicon.png" alt="" width="50" height="50" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Početna <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="learning.html">Obuka</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href=""
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Kategorije
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="category-b.html">B kategorija</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="category-c-ce.html"
+                ></a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="probationary.html">Probna dozvola</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Kontakt</a>
+          </li>
+        </ul>
+        <a href="apply.html" class="btn btn-outline-light mt-1 ml-auto"
+          ><i class="material-icons mr-1" style="vertical-align: middle;">
+            directions_car
+          </i>
+          Prijavi se</a
+        >
+      </div>
+    </nav>
+
+    <!-- Start of main content -->
+    <main>
+      <!-- Slide show -->
+      <div
+        id="carouselSlideShow"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators" style="z-index: 10;">
+          <li
+            data-target="#carouselSlideShow"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselSlideShow" data-slide-to="1"></li>
+          <li data-target="#carouselSlideShow" data-slide-to="2"></li>
+          <li data-target="#carouselSlideShow" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/slide1.jpg"
+              class="d-none d-lg-block"
+              style="z-index: 5; position: absolute; width: 60%; max-width: 1100px; height: 50rem; object-fit: cover; object-position: 65% 90%;"
+              alt=""
+            />
+            <img
+              src=""
+              class="d-block d-lg-none w-100"
+              style="z-index: 5; position: absolute; width: 50%; max-width: 200px; height: 50rem; object-fit: cover; object-position: -20% -15%;"
+              alt=""
+            />
+
+            <div
+              class="w-100"
+              style="z-index: 1;height: 24rem; background-image: url(./assets/images/slide1-blured.jpg); background-size: cover; background-position:relative;"
+            ></div>
+            <div
+              class="carousel-caption ml-auto d-none d-lg-block"
+              style="right: 2.5%; top: 50%; bottom: initial; transform: translateY(-50%); max-width: 40%;"
+            >
+              <span class="text-white" style="font-size: 3.5vw;">
+                Upiši se u Remus<br /><span
+                  class="rounded text-white px-1 pb-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white">da ne čekaš dugo</code></span
+                >
+              </span>
+              <br />
+              <br />
+              <a
+                href="apply.html"
+                class="btn btn-outline-light mt-auto"
+                style="font-size: 1.5vw;"
+              >
+                Prijavi se</a
+              >
+            </div>
+            <div
+              class="carousel-caption ml-auto d-block d-lg-none text-center text-md-right"
+              style="top: 0%; right: 5%; z-index: 15;"
+            >
+              <span class="h2">
+                Upiši se u Remus<br /><span
+                  class="rounded text-white px-1 pb-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white p-1">da ne čekaš dugo</code></span
+                >
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/slide2.jpg"
+              class="d-none d-lg-block"
+              style="z-index: 5; position: absolute; right: 0; width: 60%; max-width: 1100px; height: 24rem; object-fit: cover; object-position: 25% 90%;"
+              alt=""
+            />
+            <img
+              src="./assets/images/slide2.jpg"
+              class="d-block d-lg-none w-100"
+              style="z-index: 5; position: absolute; height: 24rem; object-fit: cover; object-position: 25% 90%;"
+              alt=""
+            />
+
+            <div
+              class="w-100"
+              style="z-index: 1; height: 24rem; background-image: url(./assets/images/slide1-blured.jpg); background-size: cover; background-position:relative;"
+            ></div>
+            <div
+              class="carousel-caption mr-auto d-none d-lg-block"
+              style="left: 2.5%; top: 50%; bottom: initial; transform: translateY(-50%); max-width: 40%;"
+            >
+              <span class="text-white" style="font-size: 3.5vw;">
+                Sa
+                <span
+                  class="rounded text-white px-1 pb-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white p-1">osmehom</code></span
+                >
+                do<br />vozačke dozvole
+              </span>
+              <br />
+              <br />
+              <a
+                href="learning.html"
+                class="btn btn-outline-light mt-auto"
+                style="font-size: 1.5vw;"
+              >
+                Obuka</a
+              >
+            </div>
+            <div
+              class="carousel-caption ml-auto d-block d-lg-none text-center text-md-right"
+              style="top: 0%; right: 5%; z-index: 15;"
+            >
+              <span class="h2">
+                <span
+                  class="rounded text-white"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white p-1">Sa osmehom do</code></span
+                >
+                <br />
+                <span
+                  class="rounded text-white"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white p-1">vozačke dozvole</code></span
+                >
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/slide2.jpg"
+              class="d-none d-lg-block"
+              style="z-index: 5; position: absolute; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 60%; max-width: 1100px; height: 24rem; object-fit: cover; object-position: 60% 90%;"
+              alt=""
+            />
+            <img
+              src="./assets/images/slide3.jpg"
+              class="d-block d-lg-none w-100"
+              style="z-index: 5; position: absolute; height: 24rem; object-fit: cover; object-position: 60% 90%;"
+              alt=""
+            />
+
+            <div
+              class="w-100"
+              style="z-index: 1; height: 24rem; background-image: url(./assets/images/slide1-blured.jpg); background-size: cover; background-position: 60% 0%;"
+            ></div>
+            <div
+              class="carousel-caption mr-auto d-none d-lg-block text-left"
+              style="left: 2%; top: 50%; bottom: initial; transform: translateY(-50%); max-width: 20%;"
+            >
+              <span class="text-white" style="font-size: 3vw;">
+                <span
+                  class="rounded text-white px-1 pb-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white">Naučite</code></span
+                >
+                da <br />
+                vozite
+              </span>
+            </div>
+            <div
+              class="carousel-caption ml-auto d-none d-lg-block text-right"
+              style="right: 2%; top: 50%; bottom: initial; transform: translateY(-50%); max-width: 20%;"
+            >
+              <span class="text-white" style="font-size: 3vw;">
+                da vas drugi <br />
+                <span
+                  class="rounded text-white px-1 pb-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white">ne bi vozali</code></span
+                >
+              </span>
+            </div>
+            <div
+              class="carousel-caption mr-auto d-block d-lg-none text-center text-md-right"
+              style="top: 0%; right: 5%; z-index: 15;"
+            >
+              <span class="h2">
+                <span
+                  class="rounded text-white px-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white">Naučite</code></span
+                >
+                da vozite <br />
+                da vas drugi
+                <span
+                  class="rounded text-white px-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white">ne bi vozali</code></span
+                >
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/slide1-blured.jpg"
+              class="d-none d-lg-block"
+              style="z-index: 5; position: absolute; right: 0; width: 100%; max-width: 1600px; height: 24rem; object-fit: cover; object-position: 5% 10%;"
+              alt=""
+            />
+            <img
+              src=""
+              class="d-block d-lg-none w-100"
+              style="z-index: 5; position: absolute; height: 24rem; object-fit: cover; object-position: 65% 50%;"
+              alt=""
+            />
+
+            <div
+              class="w-100"
+              style="z-index: 1; height: 24rem; background-image: url(./assets/images/slide4-blured.jpg); background-size: cover; background-position: 65% 50%;"
+            ></div>
+            <div
+              class="carousel-caption mr-auto d-none d-lg-block"
+              style="left: 5%; top: 50%; bottom: initial; transform: translateY(-50%); max-width: 35%;"
+            >
+              <span class="text-white" style="font-size: 3.5vw;">
+                Čak
+                <span
+                  class="rounded text-white px-1 pb-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white p-1">80%</code></span
+                >
+                kandidata<br />upisano po preporuci
+              </span>
+              <br />
+              <br />
+              <a
+                href="apply.html"
+                class="btn btn-outline-light mt-auto"
+                style="font-size: 1.5vw;"
+              >
+                Prijavi se</a
+              >
+            </div>
+            <div
+              class="carousel-caption mr-auto d-block d-lg-none text-left"
+              style="top: 0%; left: 5%; z-index: 15;"
+            >
+              <span class="h2">
+                Čak
+                <span
+                  class="rounded text-white px-1 pb-1"
+                  style="background-color: #00c8ff;"
+                  ><code class="text-white p-1">80%</code></span
+                >
+                kandidata<br />upisano po preporuci
+              </span>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselSlideShow"
+          role="button"
+          data-slide="prev"
+          style="z-index: 5;"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselSlideShow"
+          role="button"
+          data-slide="next"
+          style="z-index: 5;"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="text-center mt-5">
+        <!-- Title and first paragraph, about page-->
+        <div class="container mb-4" data-aos="zoom-in">
+          <h1>
+            Auto škola
+            <span class="rounded p-1" style="background-color: #00c8ff;"
+              ><code class="text-white">Remus</code></span
+            >
+          </h1>
+          <p class="lead mx-5 mt-4">
+            Osnovna misija auto škole Jugo je teorijska i praktična edukacija
+            polaznika za obuku vozača, koju vrše stručni, komunikativni i
+            iskusni predavači kao i instruktori. Obrazujemo vozače za bezbedno
+            učestvovanje u saobraćaju. Posle naše obuke, kandidati su spremni
+            samostalno i bezbedno da upravljaju vozilom. Kvalitet auto škole
+            Jugo zasniva se na dugogodišnjem radu i poslovanju, ali isto tako i
+            u drugačijem pristupu polaznicima. Mi cenimo različitosti naših
+            djaka i trudimo se da svakome pridjemo na individualan način i
+            stvorimo optimalnu atmosferu za njegovo obučavanje. Našu stručnost,
+            iskustvo i kvalitetan rad dokazuje velika prolaznost naših
+            kandidata, kako na teorijskom tako i na praktičnom ispitu. Sve je
+            lakše uz osmeh.
+            <i class="material-icons" style="vertical-align: middle;">
+              sentiment_satisfied_alt
+            </i>
+          </p>
+        </div>
+
+        <!-- 3 main marketing features in 1 row -->
+        <div
+          id="main-feature"
+          class="text-white p-2"
+          style="background-color: #00c8ff;"
+        >
+          <div class="container">
+            <div class="row mt-3" id="counter">
+              <div class="col-md-4" data-aos="flip-left">
+                <i class="material-icons" style="font-size: 100px;">
+                  people
+                </i>
+                <h2>
+                  <span class="counter-value" data-count="14000">0</span>&plus;
+                </h2>
+                <p>
+                  ZADOVOLJNIH KANDIDATA
+                </p>
+              </div>
+              <div class="col-md-4" data-aos="flip-right">
+                <i class="material-icons" style="font-size: 100px;">
+                  date_range
+                </i>
+                <h2 class="counter-value" data-count="30">
+                  0
+                </h2>
+                <p>
+                  GODINA SA VAMA
+                </p>
+              </div>
+              <div class="col-md-4" data-aos="flip-up">
+                <i class="material-icons" style="font-size: 100px;">
+                  access_time
+                </i>
+                <h2 class="counter-value" data-count="3">0</h2>
+                <p>
+                  MESECA DO DOZVOLE
+                </p>
+              </div>
+            </div>
+          </div>
+          <p class="h1 m-2" style="display: inline-block;">
+            <code style="color:white"> Vaša preporuka je naša reklama!</code>
+          </p>
+        </div>
+
+        <div class="container mt-5">
+          <!-- First main feature (4 school preformance) -->
+          <p class="h1">
+            Auto škola
+            <span class="text-muted">Remus</span>
+            nudi:
+          </p>
+          <br />
+          <div class="row">
+            <div class="col-md-7 order-md-1" data-aos="fade-down-right">
+              <i class="material-icons" style="font-size: 100px;">
+                library_books
+              </i>
+              <p class="mt-2 h4">
+                <span class="rounded p-1" style="background-color: #00c8ff;"
+                  ><code class="text-white">Znanje</code></span
+                >
+              </p>
+              <p class="mt-3">
+                Svaki naš kandidat postaje siguran, uspešan i bezbedan vozač
+              </p>
+            </div>
+            <div class="col-md-5 order-md-2" data-aos="fade-down-left">
+              <i class="material-icons" style="font-size: 100px;">
+                access_time
+              </i>
+              <p class="mt-2 h4">
+                <span class="rounded p-1" style="background-color: #00c8ff;"
+                  ><code class="text-white">Efikasnost</code></span
+                >
+              </p>
+              <p class="mt-3">
+                Omogućavamo našim kandidatima da za 3 meseca završe obuku i
+                postanu vozači
+              </p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-7 order-md-1" data-aos="fade-up-right">
+              <i class="material-icons" style="font-size: 100px;">
+                verified_user
+              </i>
+              <p class="mt-2 h4">
+                <span class="rounded p-1" style="background-color: #00c8ff;"
+                  ><code class="text-white">Kvalitet</code></span
+                >
+              </p>
+              <p class="mt-3">
+                Obuku naših kandidata vrše obrazovani i licencirani instruktori
+              </p>
+            </div>
+            <div class="col-md-5 order-md-2" data-aos="fade-up-left">
+              <i class="material-icons" style="font-size: 100px;">
+                attach_money
+              </i>
+              <p class="mt-2 h4">
+                <span class="rounded p-1" style="background-color: #00c8ff;"
+                  ><code class="text-white">Cena</code></span
+                >
+              </p>
+              <p class="mt-3">
+                Najpovoljniji uslovi, mogućnost plaćanja na rate i
+                administrativnom zabranom
+              </p>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Conditional driving -->
+          <div class="container pb-4 pt-4" data-aos="fade-right">
+            <p class="h1">Kondiciona vožnja</p>
+            <br /><br />
+            <p>
+              U ponudi naše škole je i kondiciona vožnja. Namenjena je svima
+              onima koji nisu dugo vozili ili osećaju da nisu dovoljno spremni
+              za saobraćaj, a da pri tome poseduju vozačku dozvolu. Trajanje ove
+              obuke je individualno i zavisi od Vas.
+            </p>
+          </div>
+
+          <hr />
+
+          <!-- Feature for submit enterance -->
+          <div class="alert alert-info" data-aos="fade-left" role="alert">
+            <div class="my-5">
+              <span class="h1 mx-1">Upis se vrši konstantno!</span>
+              <br />
+            </div>
+            <div class="my-5">
+              <p>
+                Naš program postavlja nove kriterijume u edukaciji vozača i
+                stvara nove generacije sigurnih vozača koji će uživati u vožnji.
+              </p>
+            </div>
+            <div class="mt-5 mb-4">
+              <a href="apply.html">
+                <button
+                  type="button"
+                  class="btn btn-outline btn-lg"
+                  style="color: #00c8ff;"
+                >
+                  Prijavi se
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- End of features -->
+      </div>
+
+      <!-- Footer -->
+      <footer style="background-color:#00c8ff;">
+        <div class="container pt-3 text-white">
+          <div class="row justify-content-center">
+            <div
+              class="col-md-5 d-none d-md-block text-center my-auto border-right"
+            >
+              <img
+                src="./assets/images/favicon.png"
+                alt=""
+                width="250"
+                height="250"
+              />
+              <p class="mt-3">Copyright &copy; 2023</p>
+              <p>
+      
+                <a class="text-white" href="https://github.com/Quadrition"
+                  ></a
+                >
+              </p>
+            </div>
+            <div class="col-md-4">
+              <p class="h2 p-1">
+                Auto škola Remus
+              </p>
+                <div class="d-flex">
+                  <i class="material-icons"> room </i>
+                  <p class="ml-1">JNA 10<br />23272<br />Novi Becej</p>
+                </div>
+               
+                  <a href="https://www.instagram.com/auto_skola_remus/"
+                    ><img
+                      src="./assets/images/instagram.png"
+                      alt=""
+                      width="20"
+                      height="20"
+                  /></a>
+                </div>
+                <div class="my-3">
+                  Vladimir Bocarski<br />
+                  <div class="my-1 d-flex">
+                    <i class="material-icons"> phone </i>
+                    <a class="text-white ml-1" href="tel:+381645332277"
+                      >+381645332277</a
+                    >
+                  </div>
+                  
+           
+                
+                <div class="my-3 d-flex">
+                  <i class="material-icons"> mail_outline </i>
+                  <a class="text-white ml-2" href="mailto:autoskolaremus@gmail.com"
+                    >autoskolaremus@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+      </footer>
+    </main>
+
+    <!-- Libraries (jQuery, Popper, Bootstrap JS -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap-material-design.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("body").bootstrapMaterialDesign();
+      });
+      AOS.init();
+    </script>
+    <!-- Increment -->
+    <script src="./js/incrementer.js"></script>
+  </body>
+</html>
